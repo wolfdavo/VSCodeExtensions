@@ -1,0 +1,24 @@
+@keyframes gradient {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 100% 0;
+	}
+}
+
+div .part.statusbar{
+	background: linear-gradient(45deg, #61afef, #c678dd, #e06c75, #c678dd, #61afef, #c678dd, #e06c75);  
+	/* background: linear-gradient(45deg, #60B057, #7ACF3F, #60B057, #7ACF3F); */ 
+	background-size: 300% 100%;
+	font-family: "Dank Mono";
+    animation: gradient 5s infinite linear;
+}
+
+.statusbar-item {
+    color: rgb(40, 44, 52);
+}
+
+.statusbar-item:hover {
+    color: #abb2bf;
+}
